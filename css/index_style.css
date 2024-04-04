@@ -35,14 +35,13 @@ nav ul li {
     margin-right: 10px;
 }
 nav ul li a {
-    color: red;
+    color: #fff;
     text-decoration: none;
 }
 .active {
-    text-decoration: underline;
     font-weight: bold;
-    color: red;
-    background-color: white;
+    color: white;
+    background-color: red;
     font-size: 20px; 
     font-family: "Times New Roman", Times, serif;
 }
@@ -66,11 +65,11 @@ main div {
 }
 
 main h1 {
-    color: #333; 
+    color: black; 
 }
 
 main p {
-    color: #333; 
+    color: black; 
 }
 
 main ul {
