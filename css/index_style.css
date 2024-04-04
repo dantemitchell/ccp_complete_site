@@ -1,28 +1,21 @@
+
+.skip-to-content {
+    position: relative;
+}
+.skip-to-content a {
+    position: absolute;
+    top: -60px;
+    left: 0;
+}
+.skip-to-content a:focus {
+    top: 60px;
+}
 body {
     font-family: Arial, sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #f2f2f2; 
 }
-a.skip-to-content {
-    position: relative;
-    top: -40px; 
-    left: 0; 
-    display: block; 
-    z-index: 1000; 
-    color: #000000;
-    opacity: 0; 
-    transition: opacity 0.3s ease;
-}
-
-a.skip-to-content:focus {
-    top: 20px; 
-    position: relative;
-    width: auto;
-    height: auto;
-    color: #ffffff
-}
-
 
 header {
     background-color: #333;
@@ -81,7 +74,7 @@ main p {
 }
 
 main ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding: 10px;
 }
 
@@ -118,5 +111,14 @@ main ul li {
         grid-template-columns: 1fr 2fr;
         gap: 20px;
         padding: 40px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 60px;
     }
 }
