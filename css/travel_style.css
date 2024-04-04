@@ -149,6 +149,6 @@ img:hover {
         padding: 60px;
     }
     #rome {
-        grid-column: 2; /* Moves the item to the second column */
+        grid-column: 2;
     }
 }
